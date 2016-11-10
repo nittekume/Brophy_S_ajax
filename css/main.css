@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+.hidden
+{
+	display: none;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	background-image: url("../images/background.jpg");
+}
+
+h1{
+	font-size: 1.5em;
+	color: #666;
+}
+
+/*search bar start*/
+
+header
+{
+	top: 0px !important;
+	width: 100%;
+	background-color: #efefef;
+	padding: 20px 0 20px 0;
+	border: solid 1px #ccc;
+	position: fixed;
+}
+
+#search{
+	width: 50%;
+	margin: 0 auto;
+	text-align:center;	
+}
+
+#search h1
+{
+	margin: 0;
+}
+
+#search form input
+{
+	width: 100%
+}
+
+#txtHint {
+	margin-top: 1px;
+	position: absolute;
+	width:50%;
+	font-size:10px;
+	color:white;
+	text-align: center;
+	background-color: rgba(35, 35, 35, 0.5);
+}
+
+#txtHint h5
+{
+	font-size: 15px;
+	margin: 1% 0;
+}
+
+#txtHint a img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+#txtHint a
+{
+	font-size: 1.6em;
+	font-weight: bold;
+	display: block;
+	padding: 10px 0 10px 0;
+	border-bottom:1px solid white; 
+}
+
+#txtHint a:link {
+
+text-decoration:none;
+color:white;
+}
+
+#txtHint a:visited {
+text-decoration:none;
+color:white;
+}
+
+#txtHint a:hover {
+text-decoration:underline;
+color:white;
+}
+
+/*search bar end*/
+
+/*main div start*/
+
+#maindiv {
+	background-color: #efefef;
+	overflow: auto;
+	margin: 0 auto;
+	margin-top: 150px;
+	padding: 20px;
+	width:50%;
+}
+
+#maindiv img
+{
+	float: left;
+	margin-right: 20px;
+}
+
+#maindiv h4
+{
+	margin: 0;
+	text-align: center;
+}
+
+
+
+
+#character
+{
+}
+/*main div end*/
